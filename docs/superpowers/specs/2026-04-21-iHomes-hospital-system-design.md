@@ -271,7 +271,12 @@ Integrates with PhilHealth Electronic Claims System (eCS) via SOAP Web Services.
 
 ### 7.3 Supported Packages
 
-OECB (primary), CF1, CF2, CF3, Z-Benefit, MCP, NCP, TB-DOTS, HD, Animal Bite, ABTC, Konsulta.
+MVP scope:
+
+- Phase 2: **OECB** (primary / proof-of-life).
+- Phase 4: **CF1, CF2, CF3, MCP, NCP, Z-Benefit**.
+
+Post-launch (not in 6-month MVP unless re-scoped): TB-DOTS, HD, Animal Bite, ABTC, Konsulta. The PhilHealth module is architected to accept new package builders without structural change.
 
 ### 7.4 Submission Flow
 
