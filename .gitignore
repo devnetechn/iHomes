@@ -1,0 +1,49 @@
+# CodeIgniter
+/writable/cache/*
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings (commit .claude/commands or .claude/agents manually if desired)
+/.claude/
+
+# Certs / secrets
+/secure/
+*.pem
+*.key
+!**/test-*.pem
+!**/test-*.key
+
+# Docker volumes
+/docker/data/
+
+# PHPUnit
+/.phpunit.cache/
+/tests/_output/
+
+# Build
+/build/
+/public/hot
